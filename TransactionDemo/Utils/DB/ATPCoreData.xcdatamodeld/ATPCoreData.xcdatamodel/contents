@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="OrderRecord" representedClassName="OrderRecord" syncable="YES" codeGenerationType="class">
+        <attribute name="createTime" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="orderNo" optional="YES" attributeType="String"/>
+        <attribute name="originalCurrency" optional="YES" attributeType="String"/>
+        <attribute name="originalPrice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="productId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="productName" optional="YES" attributeType="String"/>
+        <attribute name="realCurrency" optional="YES" attributeType="String"/>
+        <attribute name="realPrice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="OrderRecord" positionX="-54" positionY="-9" width="128" height="193"/>
+    </elements>
+</model>
